@@ -9,7 +9,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href={{ "style.css" | base-url }}>
+  </head>
+  <body>
 
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand">MAE</a>
@@ -31,6 +37,7 @@
         </div>
       </div>
     </nav>
+    -->
 
     <div class="jumbotron">
       <div class="container">
@@ -40,22 +47,105 @@
     </div>
 
     <div class="container">
-      <div class="card" style="width: 20rem;">
-        <div class="card-header">
-          Download MAE (v.0.0)
+      <div class="row">
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">What is MAE?</h4>
+                <p class="card-text">
+                    The <b>M</b>ultimodal <b>A</b>ttribute <b>E</b>xtraction (MAE) dataset is the first benchmark dataset for the task of multimodal attribute extraction.
+                    It is composed of mixed media data for 2.2 million product items.
+                    For each item there is a textual description, set of product images, and open-schema table of product attributes.
+                    For more information, read our paper:
+                </p>
+                <ul class="list-group list-group-flush">
+                  <a role="button" class="btn btn-outline-primary" href="https://www.google.com">Multimodal Attribute Extraction. Logan et al., 2017</a>
+                </ul>
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">Download MAE (v.0.0)</h4>
+              <ul class="list-group list-group-flush">
+                <a role="button" class="btn btn-outline-primary" href="https://s3-us-west-2.amazonaws.com/mumie/train.zip">Training JSON</a>
+                <a role="button" class="btn btn-outline-primary" href="https://s3-us-west-2.amazonaws.com/mumie/val.zip">Validation JSON</a>
+                <a role="button" class="btn btn-outline-primary" href="https://s3-us-west-2.amazonaws.com/mumie/img.tar.gz">Images</a>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">Evaluation Instructions</h4>
+              <p class="card-text">
+                To be completed.
+              </p>
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">Support</h4>
+              <p class="card-text">
+                For support, please reach out to us at the  <a href="https://groups.google.com/d/forum/mae-dataset">MAE Dataset</a> Google group.
+              </p>
+            </div>
+
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <button type="button" class="btn btn-outline-primary">Training JSON</button>
-          <button type="button" class="btn btn-outline-primary">Test JSON</button>
-          <button type="button" class="btn btn-outline-primary">Images</button>
-        </ul>
-      <div>
+        <div class="col-md-7">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Leaderboard</h4>
+              <p class="card-text">
+                <i>Last updated: 11/12/2017</i>
+              </p>
+              <p class="card-text">
+                Placeholder, to be completed.
+              </p>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Rank</th>
+                      <th scope="col">Model</th>
+                      <th scope="col">Accuracy</th>
+                      <th scope="col">MRR</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Example</td>
+                      <td>100%</td>
+                      <td>1.0</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Example</td>
+                      <td>100%</td>
+                      <td>1.0</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Example</td>
+                      <td>100%</td>
+                      <td>1.0</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Example</td>
+                      <td>100%</td>
+                      <td>1.0</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Example</td>
+                      <td>100%</td>
+                      <td>1.0</td>
+                    </tr>
+                </table>
+              </div>
+            </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-  <body>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

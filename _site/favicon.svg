@@ -7,12 +7,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="32"
    height="32"
-   viewBox="0 0 32 32.000001"
+   viewBox="0 0 31.999999 31.999998"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -21,31 +20,7 @@
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
-     id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient5646">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop5648" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop5650" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5646"
-       id="radialGradient5652"
-       cx="15.805741"
-       cy="1036.4478"
-       fx="15.805741"
-       fy="1036.4478"
-       r="10.03418"
-       gradientTransform="matrix(1,0,0,0.46259124,0,556.9961)"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -53,13 +28,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="7.4224347"
-     inkscape:cy="16.488417"
+     inkscape:zoom="5.6"
+     inkscape:cx="14.257962"
+     inkscape:cy="-1.4148241"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
+     width="32in"
      inkscape:window-width="1855"
      inkscape:window-height="1056"
      inkscape:window-x="65"
@@ -81,26 +57,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1020.3621)">
-    <rect
-       style="fill:#afdde9;fill-rule:evenodd;stroke:#004455;stroke-width:0.46153846;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3336"
-       width="29.538462"
-       height="29.538462"
-       x="1.2307693"
-       y="1021.5929"
-       ry="7.323606" />
+     transform="translate(0,-1020.3622)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#004455;fill-opacity:1;fill-rule:nonzero;stroke:#004455;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="2.4622469"
-       y="1042.6395"
-       id="text4138"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="0.50561577"
+       y="1041.8297"
+       id="text4136"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4140"
-         x="2.4622469"
-         y="1042.6395"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.25px;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;fill:#004455;fill-opacity:1;fill-rule:nonzero;stroke:#004455;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">MÆ</tspan></text>
+         id="tspan4138"
+         x="0.50561577"
+         y="1041.8297"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.99999809px;font-family:Sawasdee;-inkscape-font-specification:Sawasdee">MAE</tspan></text>
   </g>
 </svg>
